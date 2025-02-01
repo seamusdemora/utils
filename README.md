@@ -4,6 +4,7 @@ A collection of scripts and simple applications
 * [dtmerge](dtmerge/) - A tool for applying compiled DT overlays (`*.dtbo`) to base Device
     Tree files (`*.dtb`). Also includes the `dtoverlay` and `dtparam` utilities.
 * [eeptools](eeptools/) - Tools for creating and managing EEPROMs for HAT+ and HAT board.
+* [kdtc](kdtc/) - A tool for compiling overlays with #includes, etc., as used in the kernel tree.
 * [otpset](otpset/) - A short script to help with reading and setting the customer OTP
     bits.
 * [overlaycheck](overlaycheck/) - A tool for validating the overlay files and README in a
@@ -14,6 +15,7 @@ A collection of scripts and simple applications
 * [pinctrl](pinctrl/) - A more powerful replacement for raspi-gpio, a tool for
     displaying and modifying the GPIO and pin muxing state of a system, bypassing
     the kernel.
+* [piolib](piolib/) - A library for accessing the Pi 5's PIO hardware.
 * [raspinfo](raspinfo/) - A short script to dump information about the Pi. Intended for
     the submission of bug reports.
 * [vclog](vclog/) - A tool to get VideoCore 'assert' or 'msg' logs
